@@ -1,0 +1,22 @@
+package com.page.classes;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+
+public class PhonesPage extends BaseClass {
+	WebDriver driver;
+
+	String Cellselection = "//img[@src='imgs/Lumia_1520.jpg']";
+	
+
+	public PhonesPage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+
+	public void cellphones() {
+		driver.findElement(By.xpath(Cellselection)).click();
+
+	}
+}
