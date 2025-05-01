@@ -4,11 +4,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LaptopPage extends BaseClass {
-	String Laptoselection = "//img[@src='imgs/sony_vaio_5.jpg']";
+public class LaptopPage  {
+	WebDriver driver;
+
+	public LaptopPage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	String selectLaptop = "//a[text()='MacBook Pro']";
 
 	public void laptops() {
 		
-		driver.findElement(By.xpath(Laptoselection)).click();
+		driver.findElement(By.xpath(selectLaptop)).click();
 	}
 }
