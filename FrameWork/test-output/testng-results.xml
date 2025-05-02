@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T16:07:32 CDT" name="Suite" finished-at="2025-04-28T16:07:36 CDT" duration-ms="3844">
+  <suite started-at="2025-05-01T22:39:17 CDT" name="Default suite" finished-at="2025-05-01T22:39:21 CDT" duration-ms="3912">
     <groups>
     </groups>
-    <test started-at="2025-04-28T16:07:32 CDT" name="Test" finished-at="2025-04-28T16:07:36 CDT" duration-ms="3844">
+    <test started-at="2025-05-01T22:39:17 CDT" name="Default test" finished-at="2025-05-01T22:39:21 CDT" duration-ms="3912">
       <class name="com.shopping.application.FirstTest">
-        <test-method signature="addNokiaPhoneToCartTest()[pri:0, instance:com.shopping.application.FirstTest@751d3241]" started-at="2025-04-28T16:07:32 CDT" name="addNokiaPhoneToCartTest" finished-at="2025-04-28T16:07:36 CDT" duration-ms="3786" status="PASS">
+        <test-method signature="addNokiaPhoneToCartTest()[pri:0, instance:com.shopping.application.FirstTest@5f2f577]" started-at="2025-05-01T22:39:17 CDT" name="addNokiaPhoneToCartTest" finished-at="2025-05-01T22:39:21 CDT" duration-ms="3846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNokiaPhoneToCartTest -->
       </class> <!-- com.shopping.application.FirstTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
