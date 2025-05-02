@@ -2,17 +2,22 @@ package com.page.classes;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class PlaceOrderPage extends BaseClass {
-	String placeordericon = "//button[@class='btn btn-success']";
+
+public class PlaceOrderPage  extends BaseClass {
+	String placeordericon = "//button[text()='Place Order']";
 	String placeordername = "//input[@id='name']";
 	String placeordercountry = "//input[@id='country']";
 	String placeordercities = "//input[@id='city']";
 	String placeordercardnumber = "//input[@id='card']";
 	String placeordercardmonth = "//input[@id='month']";
 	String placeordercardyear = "//input[@id='year']";
-	String purchaseicon = "//button[@ionclick='purchaseOrder()']";
+	String purchaseicon = "//button[text()='Purchase']";
+	
+	
+	public PlaceOrderPage(WebDriver driver) {
+		this.driver = driver;
+	}
 
 	public void placeorder() {
 		

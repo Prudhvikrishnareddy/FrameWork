@@ -6,27 +6,30 @@ import org.testng.annotations.Test;
 import com.page.classes.AddToCartPage;
 import com.page.classes.BaseClass;
 import com.page.classes.HomePage;
+import com.page.classes.LaptopPage;
 import com.page.classes.LoginPage;
-import com.page.classes.PhonesPage;
+import com.page.classes.PlaceOrderPage;
 
-public class FirstTest extends BaseClass{
+public class FirstTest extends BaseClass {
 	WebDriver driver = getDriver();
-	
-	LoginPage pageLogin = new LoginPage(driver);
-	HomePage phone= new HomePage(driver);
-	PhonesPage mobile = new PhonesPage(driver);
-	AddToCartPage addcart=new AddToCartPage(driver);
-	
-	
 
+	LoginPage pageLogin = new LoginPage(driver);
+	HomePage sel_laptop = new HomePage(driver);
+
+	LaptopPage sel_macbookpro = new LaptopPage(driver);
+	AddToCartPage addToCart = new AddToCartPage(driver);
+    PlaceOrderPage placeOrder=new PlaceOrderPage(driver);
 	@Test
 	public void addNokiaPhoneToCartTest() {
 		pageLogin.login();
-		phone.categories();
-		mobile.cellphones();
-		addcart.selectAdd2Carts();
-		
+		driver.navigate().refresh();
 
+		sel_laptop.categories();
+
+		sel_macbookpro.laptops();
+		addToCart.selectAdd2Carts();
+		
+		placeOrder.placeorder();
 	}
 
 //  @Test

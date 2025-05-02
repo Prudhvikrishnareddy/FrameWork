@@ -7,7 +7,8 @@ import org.openqa.selenium.WebDriver;
 public class PhonesPage extends BaseClass {
 	WebDriver driver;
 
-	String Cellselection = "//img[@src='imgs/Lumia_1520.jpg']";
+	String selectMobile = "//img[@src='imgs/Lumia_1520.jpg']";
+	//git
 	
 
 	public PhonesPage(WebDriver driver) {
@@ -16,7 +17,7 @@ public class PhonesPage extends BaseClass {
 
 
 	public void cellphones() {
-		driver.findElement(By.xpath(Cellselection)).click();
+		driver.findElement(By.xpath(selectMobile)).click();
 
 	}
 }
