@@ -59,7 +59,7 @@ public class AddToCartPage extends BaseClass{
 	            System.out.println("No alert appeared: " + e.getMessage());
 	        }
 		
-		
+		//qwertyuioooooikmnbvcdrftyujnbvcfdrtyujnbv
 		//driver.findElement(By.xpath(addLaptopCart)).click();
 		//driver.findElement(By.xpath(addMonitorCart)).click();
 		WebElement cartIcon=driver.findElement(By.xpath(btnCart));

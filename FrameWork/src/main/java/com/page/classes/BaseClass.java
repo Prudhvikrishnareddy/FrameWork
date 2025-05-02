@@ -14,6 +14,11 @@ public class BaseClass {
 		driver.get("https://www.demoblaze.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
+		//qwertyuiokjhgfds
+		//wertyuijuhgfd
+		//sdrtyuiokjhvcder456ty
+		//iuytresazsxdfghjnbvcxsedrtyhgfdsxcvytredsa
+		//iuytresdfgyujhgfcx
 		return driver;
 	}
 
