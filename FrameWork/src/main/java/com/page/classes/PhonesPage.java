@@ -8,6 +8,7 @@ public class PhonesPage extends BaseClass {
 	WebDriver driver;
 
 	String selectMobile = "//img[@src='imgs/Lumia_1520.jpg']";
+	//git
 	
 
 	public PhonesPage(WebDriver driver) {
