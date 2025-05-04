@@ -41,9 +41,10 @@ public class AddToCartPage extends BaseClass{
 //        try {
 //            Thread.sleep(3000);  
 //        } catch (InterruptedException e) {
+	
 //            e.printStackTrace();
 //        }
-//		 
+//		 wertyuiolkjbvcdxsdftyuiolkmnbvcxzawertyuiolkjbvcxsdrftyhjk
 //		
 		 try {
 	            // Wait until the alert is present
